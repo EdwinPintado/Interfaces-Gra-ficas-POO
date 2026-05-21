@@ -1,31 +1,33 @@
 
-package Ejemplos;
+package ec.edu.ups.ejemploframe.ejemplos;
 
 import java.awt.Button;
 import java.awt.Color;
+import java.awt.FlowLayout;
 import java.awt.Frame;
-import java.awt.GridLayout;
 import java.awt.Panel;
-import java.awt.Point;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class EjemploGridLayout implements MouseListener{
+public class EjemploFlowLayout implements MouseListener {
     
     @Override
     public void mouseClicked(MouseEvent evento) {
         Frame miVentana = new Frame();
         Panel miPanel = new Panel();
-        GridLayout matriz = new GridLayout(2, 3);
-        Button[] botones = new Button[6];
-        for (int i = 0; i < 6; i++)
-            botones[i] = new Button("Botón " + i);
-        miPanel.setLayout(matriz);
-        for (int i = 0; i < 6; i++)
-            miPanel.add(botones[i]);
+        FlowLayout posicionamientoSecuencial = new FlowLayout();
+        Button botonA = new Button("Primer botón");
+        Button botonB = new Button("Segundo botón");
+        Button botonC = new Button("Tercer botón");
+        Button botonD = new Button("Cuarto botón");
+        miPanel.setLayout(posicionamientoSecuencial);
         miVentana.add(miPanel);
+        miPanel.add(botonA);
+        miPanel.add(botonB);
+        miPanel.add(botonC);
+        miPanel.add(botonD);
         miVentana.setSize(300, 100);
-        miVentana.setTitle("Ventana con GridLayout");
+        miVentana.setTitle("Ventana con flow layout");
         miVentana.setVisible(true);
     }
     
@@ -45,4 +47,5 @@ public class EjemploGridLayout implements MouseListener{
     public void mouseExited(MouseEvent evento) {
         evento.getComponent().setBackground(Color.white);
     }
+    
 }

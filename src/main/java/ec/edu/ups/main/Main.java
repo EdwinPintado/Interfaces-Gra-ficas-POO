@@ -1,14 +1,14 @@
 package ec.edu.ups.main;
 
-import ec.edu.ups.ejemploframe.clases.EjemploBorderLayout;
-import Ejemplos.EjemploFlowLayout;
+import ec.edu.ups.ejemploframe.ejemplos.EjemploBorderLayout;
+import ec.edu.ups.ejemploframe.ejemplos.EjemploFlowLayout;
 import ec.edu.ups.ejemploframe.clases.EsquemaRaton;
 import ec.edu.ups.ejemploframe.clases.MiVentana;
-import Ejemplos.EjemploFrame;
-import Ejemplos.EjemploGridLayout;
-import Ejemplos.EjemploLabelYTextField;
-import static Ejemplos.EjemploMouseAdapter.mostrarEjemploMouseAdapter;
-import Ejemplos.EjemploPanel;
+import ec.edu.ups.ejemploframe.ejemplos.EjemploFrame;
+import ec.edu.ups.ejemploframe.ejemplos.EjemploGridLayout;
+import ec.edu.ups.ejemploframe.ejemplos.EjemploLabelYTextField;
+import static ec.edu.ups.ejemploframe.ejemplos.EjemploMouseAdapter.mostrarEjemploMouseAdapter;
+import ec.edu.ups.ejemploframe.ejemplos.EjemploPanel;
 import ec.edu.ups.ejemploframe.clases.InterrupcionesDeAccion;
 import ec.edu.ups.ejemploframe.clases.InterrupcionesDeElemento;
 import ec.edu.ups.ejemploframe.clases.InterrupcionesDeEnfoque;

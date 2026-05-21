@@ -1,5 +1,5 @@
 
-package Ejemplos;
+package ec.edu.ups.ejemploframe.ejemplos;
 
 import java.awt.Color;
 import java.awt.Frame;

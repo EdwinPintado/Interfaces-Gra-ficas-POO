@@ -1,5 +1,5 @@
 
-package ec.edu.ups.ejemploframe.clases;
+package ec.edu.ups.ejemploframe.ejemplos;
 
 import java.awt.BorderLayout;
 import java.awt.Button;

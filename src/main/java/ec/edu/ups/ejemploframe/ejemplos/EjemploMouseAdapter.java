@@ -1,5 +1,5 @@
 
-package Ejemplos;
+package ec.edu.ups.ejemploframe.ejemplos;
 
 import ec.edu.ups.ejemploframe.clases.InterrupcionesDeRaton;
 import java.awt.Button;
